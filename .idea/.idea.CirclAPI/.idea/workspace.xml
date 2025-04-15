@@ -8,7 +8,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb6fc4df-d0e5-476b-a771-bdb901df6dd6" name="Changes" comment="" />
+    <list default="true" id="fb6fc4df-d0e5-476b-a771-bdb901df6dd6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.CirclAPI/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Circl.API/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CirclAPI/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CirclAPI/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Circl.API/bin/Debug/net8.0/Circl.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Circl.API/bin/Debug/net8.0/Circl.API.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Circl.API/bin/Debug/net8.0/Circl.API.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Circl.API/bin/Debug/net8.0/Circl.API.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Circl.API/obj/Debug/net8.0/Circl.API.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Circl.API/obj/Debug/net8.0/Circl.API.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Circl.API/obj/Debug/net8.0/Circl.API.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Circl.API/obj/Debug/net8.0/Circl.API.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Circl.API/obj/Debug/net8.0/apphost" beforeDir="false" afterPath="$PROJECT_DIR$/Circl.API/obj/Debug/net8.0/apphost" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Circl.API/obj/Debug/net8.0/staticwebassets.build.json" beforeDir="false" afterPath="$PROJECT_DIR$/Circl.API/obj/Debug/net8.0/staticwebassets.build.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Circl.Frontend/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Circl.Frontend/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Circl.Frontend/src/components/HelloWorld.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Circl.Frontend/src/components/HelloWorld.vue" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,29 +29,37 @@
   <component name="DpaMonitoringSettings">
     <option name="firstShow" value="false" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
   <component name="ProjectId" id="2vmCTqhbP8vK4ZhcwHSJlD4qeQ0" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    ".NET Launch Settings Profile.CirclAPI: http.executor": "Debug",
-    "Compound.Circl Web + API.executor": "Debug",
-    "Node.js.Circl.Frontend.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "npm.Circle.Frontend.executor": "Debug",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;.NET Launch Settings Profile.CirclAPI: http.executor&quot;: &quot;Debug&quot;,
+    &quot;Compound.Circl Web + API.executor&quot;: &quot;Debug&quot;,
+    &quot;Node.js.Circl.Frontend.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.Circle.Frontend.executor&quot;: &quot;Debug&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/jasoncaughers/Documents/Circl/Circl.Frontend/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Compound.Circl Web + API">
     <configuration name="Circl Web + API" type="CompoundRunConfigurationType">
       <toRun name="CirclAPI: http" type="LaunchSettings" />
@@ -102,7 +122,7 @@
       <option name="presentableId" value="Default" />
       <updated>1744740873619</updated>
       <workItem from="1744740878964" duration="387000" />
-      <workItem from="1744741706016" duration="1279000" />
+      <workItem from="1744741706016" duration="3391000" />
     </task>
     <servers />
   </component>

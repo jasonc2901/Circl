@@ -3,14 +3,28 @@ import { ref } from 'vue'
 
 defineProps<{ msg: string }>()
 
-const count = ref(0)
+const apiResponse = ref('') // store the API response
+
+const callApiTest = async () => {
+  const res = await fetch('http://localhost:5037/api/ping');
+  const text = await res.text();
+  apiResponse.value = text;
+  
+  setTimeout(() => {
+    apiResponse.value = '';
+  }, 1000);
+}
+
 </script>
 
 <template>
   <h1>{{ msg }}</h1>
 
   <div class="card">
-    <button type="button" @click="count++">count is {{ count }}</button>
+    <button type="button" @click="callApiTest">
+      <span v-if="apiResponse === ''">Call API</span>
+      <span v-else>{{apiResponse}}</span>
+    </button>
     <p>
       Edit
       <code>components/HelloWorld.vue</code> to test HMR

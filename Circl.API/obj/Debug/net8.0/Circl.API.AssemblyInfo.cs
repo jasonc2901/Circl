@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Circl.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1453a43c1077bfc660ce97921fd186345ab2d69c")]
 [assembly: System.Reflection.AssemblyProductAttribute("Circl.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Circl.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
