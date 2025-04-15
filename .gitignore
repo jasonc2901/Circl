@@ -9,3 +9,4 @@ Circl.API/bin/Debug/net8.0/Circl.API.pdb
 /.idea/.idea.CirclAPI/.idea
 /Circl.API/bin
 /Circl.API/obj
+.DS_Store
