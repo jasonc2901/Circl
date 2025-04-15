@@ -4,3 +4,8 @@ Circl.API/obj/
 Circl.API/bin/Debug/net8.0/Circl.API.dll
 Circl.API/bin/Debug/net8.0/Circl.API.dll
 Circl.API/bin/Debug/net8.0/Circl.API.pdb
+
+.idea/
+/.idea/.idea.CirclAPI/.idea
+/Circl.API/bin
+/Circl.API/obj

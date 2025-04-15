@@ -3,11 +3,14 @@ using Microsoft.AspNetCore.Mvc;
 namespace CirclAPI.Controllers
 {
     [ApiController]
-    [Route("api/[controller]")]
+    [Route("api/ping")]
     public class PingController : ControllerBase
     {
         [HttpGet]
-        public IActionResult Get() => Ok("Pong from Circl API!");
+        public async Task<IActionResult> GetPongAsync()
+        {
+            return Ok("Testing the pong API response!!!");
+        }
     }
 }
 
