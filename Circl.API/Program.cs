@@ -1,3 +1,6 @@
+using Circl.Db;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add CORS
@@ -16,9 +19,13 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-// Add your DbContext here later
-// builder.Services.AddDbContext<AppDbContext>(options =>
-//     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+// Set up the db context
+builder.Services.AddOptions();
+builder.Services.AddDbContext<IApplicationDbContext, ApplicationDbContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DatabaseConnection"), builder =>
+    {
+        builder.EnableRetryOnFailure(5, TimeSpan.FromSeconds(5), null);
+    }));
 
 var app = builder.Build();
 

@@ -1,4 +1,6 @@
+using Circl.Db;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace CirclAPI.Controllers
 {
@@ -6,10 +8,18 @@ namespace CirclAPI.Controllers
     [Route("api/ping")]
     public class PingController : ControllerBase
     {
+        private readonly IApplicationDbContext _dbContext;
+        
+        public PingController(IApplicationDbContext dbContext)
+        {
+            _dbContext = dbContext;
+        }
+        
         [HttpGet]
         public async Task<IActionResult> GetPongAsync()
         {
-            return Ok("Testing the pong API response!!!");
+            var testItem = await _dbContext.TestModels.FirstOrDefaultAsync();
+            return Ok($"Testing the db API response: {testItem?.Name} {testItem?.Description}");
         }
     }
 }

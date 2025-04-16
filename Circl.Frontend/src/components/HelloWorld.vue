@@ -37,7 +37,7 @@ const callApiTest = async () => {
   
   setTimeout(() => {
     apiResponse.value = '';
-  }, 1000);
+  }, 5000);
 }
 
 </script>
