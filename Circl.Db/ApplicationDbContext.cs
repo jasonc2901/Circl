@@ -10,4 +10,10 @@ public class ApplicationDbContext : IdentityDbContext, IApplicationDbContext
     }
     
     public DbSet<TestDbModel> TestModels { get; set; }
+    
+    public async Task SaveChangesAsync(CancellationToken cancellationToken = default)
+    {
+        // commit changes to the db
+        await base.SaveChangesAsync(cancellationToken);
+    }
 }
